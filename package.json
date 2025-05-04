@@ -7,15 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --exec babel-node src/server.js"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "tinkot",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
     "ejs": "^3.1.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "sequelize": "^6.37.7"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
